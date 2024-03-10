@@ -1,0 +1,87 @@
+/* To Make Body Elements More Responsive */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  background-color: #d8d7d7; /* Set a light background color */
+  max-width: 38rem; /* Limit the maximum width of the content */
+  padding: 2rem;
+}
+
+/* Styling for Main Heading */
+h1 {
+  font-family: 'Pacifico', cursive; /* Use a stylish font for the main heading */
+  color: #7b69ff; /* Set a vibrant color for the main heading */
+  font-size: 36px;
+}
+
+/* Styling for Paragraphs */
+p {
+  color: #333; /* Set a dark color for paragraphs */
+}
+
+/* Styling for Information Container */
+#info {
+  margin-top: 20px;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 20px;
+  display: flex; /* Use flexbox for a responsive layout */
+}
+
+/* Flex Containers for Layout */
+#container1, #suggest {
+  flex: 1; /* Distribute available space equally */
+}
+
+/* Margin for Container1 to Create Space between Containers */
+#container1 {
+  margin-right: 20px;
+}
+
+/* Styling for City Input */
+#city_input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for Buttons */
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #7b69ff; /* Set a matching color for buttons */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #513cf3; /* Darker color on hover */
+}
+
+/* Styling for Outfit Suggestions */
+#outfit {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333; /* Dark color for outfit suggestions */
+}
+
+/* Styling for Outfit Image Container */
+#suggest {
+  margin-top: 20px;
+}
+
+/* Styling for Images in Outfit Container */
+#outfit-image img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to images */
+}

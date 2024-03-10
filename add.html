@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create File</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+  </head>
+  <body>
+    <img src="logoOOP.png"> <!--logo for this website-->
+    <div class="mainWrapper">
+      <h1>Create File!</h1>
+      <form>
+        <div class="form-group">
+          <label>File name</label>
+          <input id="fileName" type="text" class="form-control" placeholder="filename.txt"> <!--for user enter file name-->
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Content</label> <!--for user enter file content-->
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+        </div>
+        <br>
+        </form>
+          <button id="btnCreate" class="btn btn-default">Create</button> <!--button for create file-->
+          <button id="btnRead" class="btn btn-default">Read</button> <!--button for read file-->
+          <button id="btnUpdate" class="btn btn-default">Update</button> <!--button for update file-->
+          <button id="btnDelete" class="btn btn-default">Delete</button> <!--button for delete file-->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
